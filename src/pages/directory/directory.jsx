@@ -11,8 +11,8 @@ const Directory = () => {
 
   return (
     <div className="space-y-6">
-      {/* 1. Header Section */}
-      <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+      {/* Header Section */}
+      <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm">
         <div className="flex justify-between items-start mb-6">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">Employee Directory</h2>
@@ -50,7 +50,7 @@ const Directory = () => {
         </div>
       </div>
 
-      {/* 2. Stat Cards Row */}
+      {/* Stat Cards Row */}
       <div className="grid grid-cols-4 bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <StatCard value="18" label="Total Employees" description="Across All Departments" />
         <StatCard value="14" label="Active" description="Currently Working" />
@@ -58,7 +58,7 @@ const Directory = () => {
         <StatCard value="2" label="On Probation" description="New hires" />
       </div>
 
-      {/* 3. Employee Table */}
+      {/* Employee Table */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <table className="w-full text-left border-collapse">
           <thead>

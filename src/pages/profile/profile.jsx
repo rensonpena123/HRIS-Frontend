@@ -9,7 +9,7 @@ const Profile = () => {
     <div className="space-y-6 pb-10">
       
       {/*  Profile Hero Section */}
-      <div className="bg-white p-8 rounded-xl border border-gray-200 shadow-sm">
+      <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm">
         <div className="flex justify-between items-start">
           <div className="flex gap-6 items-center">
             {/* Avatar Placeholder */}

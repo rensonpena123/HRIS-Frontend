@@ -20,7 +20,7 @@ const Layout = () => {
     <div className="flex h-screen bg-gray-50 font-sans text-gray-900">
       
       {/* SIDEBAR */}
-      <div className="w-64 bg-white border-r border-gray-200 flex flex-col h-full">
+      <div className="w-64 bg-white flex flex-col h-full">
         <div className="flex-1 overflow-y-auto">
           {/* Logo Area */}
           <div className="flex items-center gap-2 p-4 pb-8 mt-2">
@@ -85,7 +85,7 @@ const Layout = () => {
       <div className="flex-1 flex flex-col h-screen overflow-hidden">
         
         {/* HEADER */}
-        <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-8 shrink-0 relative z-40">
+        <header className="h-16 bg-white flex items-center justify-between px-8 shrink-0 relative z-40">
           <h1 className="text-xl font-bold text-gray-800 tracking-tight">{headerTitle}</h1>
           <div className="flex items-center gap-6">
             <div className="text-gray-500 text-sm">

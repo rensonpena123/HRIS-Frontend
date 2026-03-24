@@ -15,7 +15,7 @@ const Attendance = () => {
     <div className="space-y-6 pb-10">
       
       {/* 1. Header Section */}
-      <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex justify-between items-center">
+      <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex justify-between items-center">
         <div>
           <h2 className="text-2xl font-bold text-gray-900 leading-tight">My Attendance</h2>
           <p className="text-sm text-gray-400 font-medium mt-1">Your attendance records and time logs</p>
